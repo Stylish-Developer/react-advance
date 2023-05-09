@@ -4,11 +4,13 @@ import FundamentalPage from "./components/fundamentalsPage/index";
 import AdvancePage from "./components/advancePage/index";
 import HooksPage from "./components/hooksPage/index";
 import Page404 from "./components/page404/index";
+import Header from "./components/layout/header";
 
 // -- root component
 const App = () => {
   return (
     <>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="fundamental-concepts" element={<FundamentalPage />} />
