@@ -72,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 About React
 ReactJS is an open source JS library for building user interface.
-It's library not framework.
+It's JS library not framework.
 It's focusing on doing only one thing and doing that one thing well.
 It's doesn't focusing any other aspects like routing,HTTP request and other all.It's focusing on building the rich userInterface.
 
@@ -85,3 +85,10 @@ react is component based and declarative
 that's all.
 
 # thankyou for reading - Gautham
+
+About Component
+    Component is basically the code inside the .js, .jsx file.
+    components describe a part of the UI. they are reuseable and can be nested inside other components.
+    - its has two types
+        - functional components. - stateless component
+        - class components. - statefull component
