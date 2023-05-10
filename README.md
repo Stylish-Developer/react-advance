@@ -85,6 +85,7 @@ react is component based and declarative
 that's all.
 
 # thankyou for reading - Gautham
+----------------------------------------------------------------------------------------------------------------------------------
 
 About Component
     Component is basically the code inside the .js, .jsx file.
@@ -92,3 +93,10 @@ About Component
     - its has two types
         - functional components. - stateless component
         - class components. - statefull component
+---------------------------------------------------------------------------------------------------------------------------------
+# Event handling Concept is skipped - its simple onClick event with camelCase explained with two types of components
+# Styling and css basics concepts has 4 types. 1 css stylesheets 2 inline styling 3 css modules 4 css in js libraries ( styled components )
+----------------------------------------------------------------------------------------------------------------------------------
+
+# React Fragment
+- React fragment is nothing. it's just an one root umbrella div for a component 
