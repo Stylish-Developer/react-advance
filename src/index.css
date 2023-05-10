@@ -21,4 +21,9 @@ body {
 code {
   font-family: 'Shadows Into Light', cursive,
     monospace;
+
+
+}
+button {
+  padding: 5px;
 }

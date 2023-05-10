@@ -17,7 +17,7 @@ const Header = () => {
     backgroundColor: "#010101",
     textAlign: "right",
     color: "#525252",
-    padding: 2,
+    padding: "5px",
   };
   const styles = ({ isActive }) => {
     if (isActive) {
@@ -41,23 +41,25 @@ const Header = () => {
 
   return (
     <>
-      <div style={borderDiv}>@Stylish-Developer</div>
-      <nav style={navStyle}>
-        <div></div>
-        <NavLink to="/" style={styles}>
-          Home
-        </NavLink>
-        <NavLink to="fundamental-concepts" style={styles}>
-          Fundamentals
-        </NavLink>
-        <NavLink to="advance-concepts" style={styles}>
-          Advance
-        </NavLink>
-        <NavLink to="hooks-concepts" style={styles}>
-          Hooks
-        </NavLink>
-        <div></div>
-      </nav>
+      <div style={{ position: "sticky", top: 0, left: 0 }}>
+        <div style={borderDiv}>@Stylish-Developer</div>
+        <nav style={navStyle}>
+          <div></div>
+          <NavLink to="/" style={styles}>
+            Home
+          </NavLink>
+          <NavLink to="fundamental-concepts" style={styles}>
+            Fundamentals
+          </NavLink>
+          <NavLink to="advance-concepts" style={styles}>
+            Advance
+          </NavLink>
+          <NavLink to="hooks-concepts" style={styles}>
+            Hooks
+          </NavLink>
+          <div></div>
+        </nav>
+      </div>
     </>
   );
 };
