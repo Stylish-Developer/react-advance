@@ -69,34 +69,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
 About React
 ReactJS is an open source JS library for building user interface.
 It's JS library not framework.
 It's focusing on doing only one thing and doing that one thing well.
 It's doesn't focusing any other aspects like routing,HTTP request and other all.It's focusing on building the rich userInterface.
 
-react is component based and declarative
-    - react lets you breakdown your application into small encapsulated parts which can then be composed to make complex ui.
-    - we have tell to react what we want and react with its react dom library will build the actual ui.
-    means,
-    we have tell to react what the ui should looks like react will create the actual UI for us.
+react is component based and declarative - react lets you breakdown your application into small encapsulated parts which can then be composed to make complex ui. - we have tell to react what we want and react with its react dom library will build the actual ui.
+means,
+we have tell to react what the ui should looks like react will create the actual UI for us.
 
 that's all.
 
 # thankyou for reading - Gautham
-----------------------------------------------------------------------------------------------------------------------------------
+
+---
 
 About Component
-    Component is basically the code inside the .js, .jsx file.
-    components describe a part of the UI. they are reuseable and can be nested inside other components.
-    - its has two types
-        - functional components. - stateless component
-        - class components. - statefull component
----------------------------------------------------------------------------------------------------------------------------------
+Component is basically the code inside the .js, .jsx file.
+components describe a part of the UI. they are reuseable and can be nested inside other components. - its has two types - functional components. - stateless component - class components. - statefull component
+
+---
+
 # Event handling Concept is skipped - its simple onClick event with camelCase explained with two types of components
+
 # Styling and css basics concepts has 4 types. 1 css stylesheets 2 inline styling 3 css modules 4 css in js libraries ( styled components )
-----------------------------------------------------------------------------------------------------------------------------------
+
+---
 
 # React Fragment
-- React fragment is nothing. it's just an one root umbrella div for a component 
+
+- React fragment is nothing. it's just an one root umbrella div for a component
