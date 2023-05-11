@@ -1,5 +1,6 @@
 // --> advance concepts page
 
+import ContextApp from "./context";
 import ErrorBoundary from "./errorboundary";
 import FrwardRef from "./forwardref";
 import HigherOrderComponent from "./hoc";
@@ -22,8 +23,10 @@ const AdvancePage = () => {
         <PortalsApp />
         <br />
         <ErrorBoundary />
-        <br/>
+        <br />
         <HigherOrderComponent />
+        <br />
+        <ContextApp />
       </div>
     </>
   );
