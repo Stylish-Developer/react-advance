@@ -2,6 +2,7 @@
 
 import ErrorBoundary from "./errorboundary";
 import FrwardRef from "./forwardref";
+import HigherOrderComponent from "./hoc";
 import PortalsApp from "./portals";
 import ParentComponent from "./purecomponent";
 import Refs from "./ref";
@@ -21,6 +22,8 @@ const AdvancePage = () => {
         <PortalsApp />
         <br />
         <ErrorBoundary />
+        <br/>
+        <HigherOrderComponent />
       </div>
     </>
   );
