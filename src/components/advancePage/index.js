@@ -1,6 +1,8 @@
 // --> advance concepts page
 
+import ErrorBoundary from "./errorboundary";
 import FrwardRef from "./forwardref";
+import PortalsApp from "./portals";
 import ParentComponent from "./purecomponent";
 import Refs from "./ref";
 
@@ -16,6 +18,9 @@ const AdvancePage = () => {
         <br />
         <FrwardRef />
         <br />
+        <PortalsApp />
+        <br />
+        <ErrorBoundary />
       </div>
     </>
   );
